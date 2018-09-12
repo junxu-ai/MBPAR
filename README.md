@@ -17,8 +17,8 @@ Put all source files into a folder, e.g., MBPA, and then add the path in Matlab 
 # structure
 
 "Trace Analysis": the main functions to analysing the trace with given format. tens of properties are presented
-  lists_cmd: Nx3 matrix; the first column is starting LBA, the second column is the request size, and the third column is access type (0/write, 1/read)
-  lists_action: Nx2 matrix with the first column as arrival time, and the second coloumn as completion time
+  ##lists_cmd: Nx3 matrix; the first column is starting LBA, the second column is the request size, and the third column is access type (0/write, 1/read)
+  ##lists_action: Nx2 matrix with the first column as arrival time, and the second coloumn as completion time
 
 "Blktrace Parser": parse the ascii file into trace matrix
   raw data file with blkparse: use "blktrace_parser_s.m" with specified filename (e.g., "sample data\blkparse\310.blktrace.txt")
